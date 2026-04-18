@@ -1,13 +1,13 @@
-package com.loganhere.usercard;
+package com.loganhere.emailvalidtaion;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UsercardApplication {
+public class EmailValidationApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UsercardApplication.class, args);
+		SpringApplication.run(EmailValidationApplication.class, args);
 	}
 
 }
