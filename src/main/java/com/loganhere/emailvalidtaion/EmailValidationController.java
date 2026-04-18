@@ -16,7 +16,7 @@ public class EmailValidationController {
     }
 
     @PostMapping("/validate")
-    public EmailValidationResponse validateEmail(@RequestBody String email) {
-        return new EmailValidationResponse(validationService.validateEmail(email));
+    public EmailValidationResponse validateEmail(@RequestBody EmailValidateRequest request) {
+        return new EmailValidationResponse(validationService.validateEmail(request.getEmail()));
     }
 }
